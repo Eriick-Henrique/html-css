@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+    /*
+            Tipos de format()
+            * opentype (otf)
+            * truetype (ttf)
+            * embedded-opentype 
+            * truetype-aat 
+            * svg
+    */
+
+    @font-face {
+        font-family: 'love';
+        src: url('fonts/love\ story\ ttf.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'escola';
+        src: url('fonts/varsity_regular.ttf') format('truetype');
+    }
+
+    h1 {
+        font-family: 'love', times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+    p{
+        font-family: 'escola';
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque praesentium corporis impedit, vel debitis. Voluptatum, doloribus totam unde corrupti officiis praesentium mollitia culpa blanditiis enim vel aliquam et porro.</p>
+</body>
+</html>
