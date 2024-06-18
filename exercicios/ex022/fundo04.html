@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            nav {
+                display: flex;
+                justify-content: space-between;
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+                
+            }
+
+            nav a:hover {
+                color: blue;
+            }
+
+            #container {
+                background-color: purple;
+                height: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #conteudo {
+                background-color: yellow;
+                background-image: url('img/pattern003.png');
+                width: 300px;
+                height: 200px;
+                margin: 5px;
+                /*transform: translate(-50%, -50%);*/
+            }
+        </style>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <nav id="cabecalho_link">
+            <a id="link" href="#">Inicio</a>
+            <a id="link" href="#">Sobre</a>
+            <a id="link" href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section id="container">
+        <article id="conteudo"></article>
+        <article id="conteudo"></article>
+    </section>
+    
+</body>
+</html>
