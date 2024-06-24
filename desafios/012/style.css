@@ -1,0 +1,27 @@
+body {
+    background-image: url('imagens/background001.jpg');
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    
+}
+
+header p {
+    color: grey;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: white;
+}
